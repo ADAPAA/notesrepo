@@ -1,14 +1,14 @@
-What is Github
+##What is Github##
 
-Github is a version control system.
-Version control system: It management system that manages the changes in the project till the end. Changes may include adding new files, modifying older files, deleting files.
-Rollback: The purpose of version control system is we can always go back to any of the previous versions at any time if we want to.
+>Github is a version control system.
+>Version control system: It management system that manages the changes in the project till the end. Changes may include adding new files, modifying older files, deleting files.
+>Rollback: The purpose of version control system is we can always go back to any of the previous versions at any time if we want to.
 Collaboration
-Why version control:
-Storing versions: You don’t have to remember or document what all are changed from one version to other version
-Back up: All the developers will have a copy of all the files at central server. At the start of the day, they fetch all the files from central server and store it into the local machine. At the end of the day they transfer all the files to the central server.	Even in crisis, if central server is crashed, all the developers will have a local copy.
-Analyse: easy to make analysis of the project. For every version, version control system provides you with proper description of what was changed and when was it changed. It helps to analyse how the project has evolved
-Version control tools: 
+##Why version control?##
+>Storing versions: You don’t have to remember or document what all are changed from one version to other version
+>Back up: All the developers will have a copy of all the files at central server. At the start of the day, they fetch all the files from central server and store it into the local machine. At the end of the day they transfer all the files to the central server.	Even in crisis, if central server is crashed, all the developers will have a local copy.
+>Analyse: easy to make analysis of the project. For every version, version control system provides you with proper description of what was changed and when was it changed. It helps to analyse how the project has evolved
+###Version control tools: 
 Git
 Apache subversion(SVN)
 CVS(Concurrent version system)
