@@ -1,13 +1,13 @@
 ## What is Github?
 
-Github is a version control system.
-    Version control system: It management system that manages the changes in the project till the end. Changes may include adding new files, modifying older files, deleting files.
-**Rollback:**The purpose of version control system is we can always go back to any of the previous versions at any time if we want to.
+Github is a version control system.  
+Version control system: It management system that manages the changes in the project till the end. Changes may include adding new files, modifying older files, deleting files.  
+Rollback:The purpose of version control system is we can always go back to any of the previous versions at any time if we want to.      
 Collaboration
-## Why version control?
-Storing versions: You don’t have to remember or document what all are changed from one version to other version
->Back up: All the developers will have a copy of all the files at central server. At the start of the day, they fetch all the files from central server and store it into the local machine. At the end of the day they transfer all the files to the central server.   Even in crisis, if central server is crashed, all the developers will have a local copy.
->Analyse: easy to make analysis of the project. For every version, version control system provides you with proper description of what was changed and when was it changed. It helps to analyse how the project has evolved
+## Why version control?  
+Storing versions: You don’t have to remember or document what all are changed from one version to other version.  
+Back up: All the developers will have a copy of all the files at central server. At the start of the day, they fetch all the files from central server and store it into the local machine. At the end of the day they transfer all the files to the central server.   Even in crisis, if central server is crashed, all the developers will have a local copy.  
+Analyse: easy to make analysis of the project. For every version, version control system provides you with proper description of what was changed and when was it changed. It helps to analyse how the project has evolved.  
 ## Version control tools: 
 * Git
 * Apache subversion(SVN)
@@ -39,14 +39,14 @@ if you want to migrate from other version control system say SVN to Git, you don
 Free to download. People use heavily on local repo. They use the central server only when they are sure about the work. They are not experimenting on central repo. So central repo may be very simple and does not require complex and powerful hardware. So it is economical.
 ## What is repository:
 It is a directory or storage space where all your files are store.
-Two types of repo are
+** Two types of repo are **
 * Local repo
 * Central repo
-**Local repo:
+> Local repo:
 Resides on your local machine
 Resides as .git folder  inside your project folder
 Only the owner/admin i.e you can work on this. 
-**Remote repo:
+> Remote repo:
 Resides on remote machine
 Resides as .git folder
 It is for sharing and exchanging data. So anyone in the team can work on it. 
@@ -161,35 +161,32 @@ https://github.com/github
 
 
 
-TASK:
+# TASK:
 Create a Reo or Clone a Repo  and Create a text file(githubnotes) in the repo and Commit the file and also do the Pull request
-Step 1:-
+**Step 1:-**
     Create a Repo (or) Clone a repo
 ``` $git init reponame (or) git clone “URL of Repo to clone” ```
 -push an existing repository from the command line
 ``` $git remote add origin https://github.com/ADAPAA/notes.git ```
-```    $git push -u origin master```
-
-Step2:-
+```    $git push -u origin master```  
+**Step2:-**
     Create a Branch for the Master in Repo
-     ```  $git branch branchname```
+     ```  $git branch branchname```  
 **Step3:-**
 Move to the branch and work on it
-``` $git checkout branchname ```
+``` $git checkout branchname ```  
 **Step4:-**
      Create a File in that Branch 
-     ``` $vi filename.txt```
+     ``` $vi filename.txt```  
 **Step5:-**
 Know the status of the file whether the file is in index or what's the status actually
-``` $git status ```
+``` $git status ```  
 **Step 6:-** 
     Add all new/modified (untracked) files in the current directory and all subdirectories to the Index,this preparing them to be included in the next commit.
-   ``` $git add filename```
+   ``` $git add filename```  
 **Step7:-**
       Commit  record your changes to the local repository.
-   ``` $git commit```
-
-
+   ``` $git commit```  
 **Step8:-** To updtae from local to remote
   ``` $git push  <REMOTENAME> <BRANCHNAME> ```
   
