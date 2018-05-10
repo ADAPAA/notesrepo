@@ -39,14 +39,14 @@ if you want to migrate from other version control system say SVN to Git, you don
 Free to download. People use heavily on local repo. They use the central server only when they are sure about the work. They are not experimenting on central repo. So central repo may be very simple and does not require complex and powerful hardware. So it is economical.  
 ## What is repository:  
 It is a directory or storage space where all your files are store.  
-** Two types of repo are **  
+**Two types of repo are**  
 * Local repo  
-* Central repo  
-> Local repo:  
+* Central repo          
+**Local repo:**    
 Resides on your local machine  
 Resides as .git folder  inside your project folder  
 Only the owner/admin i.e you can work on this.  
-> Remote repo:  
+**Remote repo:**  
 Resides on remote machine  
 Resides as .git folder  
 It is for sharing and exchanging data. So anyone in the team can work on it.  
@@ -190,7 +190,7 @@ Know the status of the file whether the file is in index or what's the status ac
 **Step8:-** To updtae from local to remote  
   ``` $git push  <REMOTENAME> <BRANCHNAME> ```  
 **Step9:-** Create Pull request with the number of reviews and protect the origin master  
-**Step10:-**Once done with pull request sent it for Merge Pull request and select the merge pull request(Create a merge Commit,Squash and merge,Rebase and merge).
+**Step10:-** Once done with pull request sent it for Merge Pull request and select the merge pull request(Create a merge Commit,Squash and merge,Rebase and merge).
 
   
   Push Request  done successfully :+1:
