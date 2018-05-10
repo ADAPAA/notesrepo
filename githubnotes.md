@@ -60,13 +60,13 @@ We need local and central repo.
 Central repo: Host the central repo on github. So create an account and create a repo.  
 Local repo:  
 Install git on your machine.  
-\¿git init\¿ : to create a local repo ff you are starting a new project  
-\¿git clone\¿ : to download repo from central repo if you join an ongoing project. Clones master by default  
-\¿git clone -b branchname repo-url\¿: clones particular branch  
+**git init :** to create a local repo ff you are starting a new project  
+**git clone :** to download repo from central repo if you join an ongoing project. Clones master by default  
+**git clone -b branchname repo-url:** clones particular branch  
 ### Syncing repos:  
 Link remote repo and your local repo to know which repo to push into. Remote repo is called origin  
 Http method:  
-git remote add origin \¿remote repo link\¿  
+git remote add origin **remote repo link**  
 SSH method:  
 ssh-keygen  
 Generates the public key. Copy the key and paste it in the ssh keys in settings menu on the git hub.  
@@ -93,7 +93,7 @@ git add -A(upper case) : to add all untracked files to index
  To see which files are in the index  
 #### git commit: 
 To make the changes in local rep  
-git commit -m \¿message\¿: commit with message  
+git commit -m <message>: commit with message  
 git commit -a(lower case) : to commit all files  
 Also adds the modified file to the index if the file is added to index before. I will not add if it is not added before.  
 #### git log:   
@@ -116,7 +116,7 @@ Delete in remote repo:
 Combine the work of branches to master  
 Switch to the target branch by using checkout command and run the following command  
 ``` $git merge branchname ```  
-If  you want to merge branch A to branch B, switch to b and run the command \¿git merge a\¿  
+If  you want to merge branch A to branch B, switch to b and run the command **git merge a**  
 Branch a is still separate and you can again work on it if you want to. 
 #### Rebase:??  
 Another kind of merging.  
@@ -124,7 +124,7 @@ Integrate changes from one branch to another.
 #### Gitstash:??  
 #### Revert:   
 git checkout <first 8 digits of the hashcode of the version > filename  
-You can get the hash code from \¿git log\¿  
+You can get the hash code from **git log**  
 Git pull and git fetch difference:??  
 git pull gets all the files from central repo to master branch of your local repo.  
 git fetch gets all the files from central repo to a different branch. It needs a git merge to see the changes in local repo.  
@@ -165,7 +165,7 @@ https://github.com/github
 Create a Reo or Clone a Repo  and Create a text file(githubnotes) in the repo and Commit the file and also do the Pull request
 **Step 1:-**  
     Create a Repo (or) Clone a repo
-``` $git init reponame (or) git clone \¿URL of Repo to clone\¿ ```
+``` $git init reponame (or) git clone <URL of Repo to clone> ```
 -push an existing repository from the command line  
 ``` $git remote add origin https://github.com/ADAPAA/notes.git ```  
 ```    $git push -u origin master```  
