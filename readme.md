@@ -1,5 +1,30 @@
+===
 #Hello World #
-##This is heading 2 ##
-###Prudhvi adapa###
-**try a bold text**
-> This is a line
+
+SUB-HEADING
+---
+
+##SUB-HEADING
+
+THIS IS MY FIRST PARAGRAPH
+
+THIS IS MY SECOND PARAGRAPH
+
+VS
+
+THIS IS MY FIRST PARAGRAPH
+THIS IS MY SECOND PARAGRAPH
+
+---
+
+**THIS IS BOLDED**
+
+*THIS IS ITALIC*
+
+---
+
+FOR BULLET POINTS
+
+* FIRST ITEM
+* SECOND ITEM
+* THIRD ITEM
