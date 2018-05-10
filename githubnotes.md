@@ -1,21 +1,25 @@
 
-##What is Github?
+#What is Github?
 
-Github is a version control system.
-Version control system: It management system that manages the changes in the project till the end. Changes may include adding new files, modifying older files, deleting files.
-**Rollback:**The purpose of version control system is we can always go back to any of the previous versions at any time if we want to.
-Collaboration
+	Github is a version control system.
+	**Version control system:
+			It management system that manages the changes in the project till the end. Changes may include adding new files, modifying older files, deleting files.
+	**Rollback:
+		The purpose of version control system is we can always go back to any of the previous versions at any time if we want to.
+	Collaboration
 ##Why version control?
-Storing versions: You don’t have to remember or document what all are changed from one version to other version
->Back up: All the developers will have a copy of all the files at central server. At the start of the day, they fetch all the files from central server and store it into the local machine. At the end of the day they transfer all the files to the central server.   Even in crisis, if central server is crashed, all the developers will have a local copy.
->Analyse: easy to make analysis of the project. For every version, version control system provides you with proper description of what was changed and when was it changed. It helps to analyse how the project has evolved
+	**Storing versions:
+		You don’t have to remember or document what all are changed from one version to other version
+	**Back up:
+		All the developers will have a copy of all the files at central server. At the start of the day, they fetch all the files from central server and store it into the local machine. At the end of 		the day they transfer all the files to the central server.   Even in crisis, if central server is crashed, all the developers will have a local copy.
+	**Analyse: easy to make analysis of the project. For every version, version control system provides you with proper description of what was changed and when was it changed. It helps to analyse how the 		project has evolved
 ##Version control tools: 
-Git
-Apache subversion(SVN)
-CVS(Concurrent version system)
-Mercurial
-SVN and CVS are centralised version control system do not provide a local copy. All the developers will be working on central repository.
-Git and Mercurial are the distributed version control system.
+**Git
+**Apache subversion(SVN)
+**CVS(Concurrent version system)
+**Mercurial
+**SVN and CVS are centralised version control system do not provide a local copy. All the developers will be working on central repository.
+**Git and Mercurial are the distributed version control system.
 ##GIT and GITHUB:
 Git is a version control tool that allows operations like fetch, push the files to central server(repository)
 Github is a code hosting platform for version control collaboration. It is a company that allows you to host your central repository in a remote server.
