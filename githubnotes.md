@@ -1,13 +1,14 @@
-##What is Github##
+##What is Github?
 
 Github is a version control system.
 Version control system: It management system that manages the changes in the project till the end. Changes may include adding new files, modifying older files, deleting files.
-Rollback: The purpose of version control system is we can always go back to any of the previous versions at any time if we want to.
+####Rollback:
+	The purpose of version control system is we can always go back to any of the previous versions at any time if we want to.
 Collaboration
-##Why version control?##
-Storing versions: You donít have to remember or document what all are changed from one version to other version
-Back up: All the developers will have a copy of all the files at central server. At the start of the day, they fetch all the files from central server and store it into the local machine. At the end of the day they transfer all the files to the central server.	Even in crisis, if central server is crashed, all the developers will have a local copy.
-**Analyse: easy to make analysis of the project. For every version, version control system provides you with proper description of what was changed and when was it changed. It helps to analyse how the project has evolved
+##Why version control?
+Storing versions: You don‚Äôt have to remember or document what all are changed from one version to other version
+>Back up: All the developers will have a copy of all the files at central server. At the start of the day, they fetch all the files from central server and store it into the local machine. At the end of the day they transfer all the files to the central server.	Even in crisis, if central server is crashed, all the developers will have a local copy.
+>Analyse: easy to make analysis of the project. For every version, version control system provides you with proper description of what was changed and when was it changed. It helps to analyse how the project has evolved
 ###Version control tools: 
 Git
 Apache subversion(SVN)
@@ -22,15 +23,15 @@ Features of GIT:
 Distributed:
  The project is distributed over different places. Each of the developer may work from different locations of the world.
 Compatible: 
-if you want to migrate from other version control system say SVN to Git, you donít have to transfer all the files to git. But you can use the same SVN central repository as Git central repository. Git is compatible with existing systems and protocols like ssh. So you donít have to change lot of things when migrating
+if you want to migrate from other version control system say SVN to Git, you don‚Äôt have to transfer all the files to git. But you can use the same SVN central repository as Git central repository. Git is compatible with existing systems and protocols like ssh. So you don‚Äôt have to change lot of things when migrating
 Non-linear:
  Git records the current state of project by creating a tree graph from index. It facilitates non-linear by branching
-Branching:
+**Branching:**
  Git is the only one which has branching model. It allows creating multiple branches of your local repository. Master branch is main branch starts from the start of the project to the end of the project and  contain the entire project.
-Light weight:
+**Light weight:**
  Maintaining local repo, updating all the files each and every file of each version might look like lot of files but the storage is all compressed. Only when you fetch from local repository to your workspace, it is converted.when you push it again it is compressed again and stored with very minimal space.
 Speed:
- Since you have a local repository, you donít have always travel over network to get that data.  Itís 10 times faster than other VCS according to mozilla performance test. It is faster because Git is written in C and C is very close to machine languages. It reduces all the runtime overhead.
+ Since you have a local repository, you don‚Äôt have always travel over network to get that data.  It‚Äôs 10 times faster than other VCS according to mozilla performance test. It is faster because Git is written in C and C is very close to machine languages. It reduces all the runtime overhead.
 Open Source:
  Linus Torvalds creator of linux kernel, used a VCS called bit keeper. It was made paid version. So, he wrote his own vcs called git and made it open source.
 Secure:
@@ -60,13 +61,13 @@ We need local and central repo.
 Central repo: Host the central repo on github. So create an account and create a repo.
 Local repo: 
 Install git on your machine.
-ìgit initî : to create a local repo ff you are starting a new project
-ìgit cloneî : to download repo from central repo if you join an ongoing project. Clones master by default
-ìgit clone -b branchname repo-urlî: clones particular branch
+‚Äúgit init‚Äù : to create a local repo ff you are starting a new project
+‚Äúgit clone‚Äù : to download repo from central repo if you join an ongoing project. Clones master by default
+‚Äúgit clone -b branchname repo-url‚Äù: clones particular branch
 Syncing repos:
 Link remote repo and your local repo to know which repo to push into. Remote repo is called origin
 Http method:
-git remote add origin ìremote repo linkî
+git remote add origin ‚Äúremote repo link‚Äù
 SSH method:
 ssh-keygen
 Generates the public key. Copy the key and paste it in the ssh keys in settings menu on the git hub. 
@@ -76,7 +77,7 @@ ssh -T git@github.com
 Fetch all the files from central repo to local repo:
 git pull origin master
 Fetch from master branch
-Push the changes to central repo. Switch to the correct branch before pushing.
+Push the chang?es to central repo. Switch to the correct branch before pushing.
 Git push 
 git push origin firstbranch
 Creates a branch named firstbranch at the remote central repo and pushes all the changes from local repo to first branch.
@@ -93,7 +94,7 @@ git status:
  To see which files are in the index
 git commit: 
 To make the changes in local rep
-git commit -m ìmessageî: commit with message
+git commit -m ‚Äúmessage‚Äù: commit with message
 git commit -a(lower case) : to commit all files
 Also adds the modified file to the index if the file is added to index before. I will not add if it is not added before.
 git log: 
@@ -116,7 +117,7 @@ Merging:
 Combine the work of branches to master
 Switch to the target branch by using checkout command and run the following command
 $git merge branchname
-If  you want to merge branch A to branch B, switch to b and run the command ìgit merge aî
+If  you want to merge branch A to branch B, switch to b and run the command ‚Äúgit merge a‚Äù
 Branch a is still separate and you can again work on it if you want to. 
 Rebase:??
 Another kind of merging.
@@ -124,7 +125,7 @@ Integrate changes from one branch to another.
 Gitstash:??
 Revert: 
 git checkout <first 8 digits of the hashcode of the version > filename
-You can get the hash code from ìgit logî
+You can get the hash code from ‚Äúgit log‚Äù
 Git pull and git fetch difference:??
 git pull gets all the files from central repo to master branch of your local repo
 git fetch gets all the files from central repo to a different branch. It needs a git merge to see the changes in local repo.
@@ -165,7 +166,7 @@ TASK:
 Create a Reo or Clone a Repo  and Create a text file(githubnotes) in the repo and Commit the file and also do the Pull request
 Step 1:-
     Create a Repo (or) Clone a repo
-$git init reponame (or) git clone ìURL of Repo to cloneî
+$git init reponame (or) git clone ‚ÄúURL of Repo to clone‚Äù
 -push an existing repository from the command line
 $git remote add origin https://github.com/ADAPAA/notes.git
 	$git push -u origin master
