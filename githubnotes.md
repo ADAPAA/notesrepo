@@ -5,7 +5,7 @@ Version control system: It management system that manages the changes in the pro
 Rollback:The purpose of version control system is we can always go back to any of the previous versions at any time if we want to.      
 Collaboration  
 ## Why version control?  
-Storing versions: You don¿t have to remember or document what all are changed from one version to other version.  
+Storing versions: You donÂ¿t have to remember or document what all are changed from one version to other version.  
 Back up: All the developers will have a copy of all the files at central server. At the start of the day, they fetch all the files from central server and store it into the local machine. At the end of the day they transfer all the files to the central server.   Even in crisis, if central server is crashed, all the developers will have a local copy.   
 Analyse: easy to make analysis of the project. For every version, version control system provides you with proper description of what was changed and when was it changed. It helps to analyse how the project has evolved.   
 ## Version control tools:   
@@ -22,15 +22,16 @@ Github is a code hosting platform for version control collaboration. It is a com
 ### Distributed:  
  The project is distributed over different places. Each of the developer may work from different locations of the world.  
 ### Compatible:   
-if you want to migrate from other version control system say SVN to Git, you don¿t have to transfer all the files to git. But you can use the same SVN central repository as Git central repository. Git is compatible with existing systems and protocols like ssh. So you don¿t have to change lot of things when migrating  
+if you want to migrate from other version control system say SVN to Git, you donÂ¿t have to transfer all the files to git. But you can use the same SVN central repository as Git central repository. Git is compatible with existing systems and protocols like ssh. So you donÂ¿t have to change lot of things when migrating  
 ### Non-linear:  
+
  Git records the current state of project by creating a tree graph from index. It facilitates non-linear by branching
 ### Branching:  
  Git is the only one which has branching model. It allows creating multiple branches of your local repository. Master branch is main branch starts from the start of the project to the end of the project and  contain the entire project.  
 ### Light weight:  
  Maintaining local repo, updating all the files each and every file of each version might look like lot of files but the storage is all compressed. Only when you fetch from local repository to your workspace, it is converted.when you push it again it is compressed again and stored with very minimal space.  
 ### Speed:  
- Since you have a local repository, you don¿t have always travel over network to get that data.  It¿s 10 times faster than other VCS according to mozilla performance test. It is faster because Git is written in C and C is very close to machine languages. It reduces all the runtime overhead.  
+ Since you have a local repository, you donÂ¿t have always travel over network to get that data.  ItÂ¿s 10 times faster than other VCS according to mozilla performance test. It is faster because Git is written in C and C is very close to machine languages. It reduces all the runtime overhead.  
 ### Open Source:  
  Linus Torvalds creator of linux kernel, used a VCS called bit keeper. It was made paid version. So, he wrote his own vcs called git and made it open source.  
 ### Secure:  
