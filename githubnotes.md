@@ -145,10 +145,12 @@ git  remote
 
 
 
+
 Quiz 1:
 https://github.com/ravicm/sandbox
 
 Makes your sample changes in different branches and push it 
+
 https://github.com/prudhviadapa/kube-ingress-aws-controller/tree/master
 
 Vani repo:
@@ -195,3 +197,4 @@ Know the status of the file whether the file is in index or what's the status ac
 
   
   Push Request  done successfully :+1:
+
